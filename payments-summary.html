@@ -11,7 +11,9 @@
     <!-- Loading Flat UI Pro -->
     <link href="css/flat-ui-pro.css" rel="stylesheet">
 
-
+    <style>
+      .alert-success {background: #2ecc71; color: #fff; border: #27ae60}
+    </style>
     <link rel="shortcut icon" href="img/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,16 +37,21 @@
 
     <div class="container">
 
-
       <div class="row">
 
           <h4>Payments summary</h4>
+          <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Good news!</strong> Your payment was processed successully.
+          </div>
+
 
             <div class="panel panel-default">
               <div class="panel-heading" >
                 <h4 class="panel-title">
                     Payments filter
                 </h4>
+
               </div>
                 <div class="panel-body">
                   <div class="row">
