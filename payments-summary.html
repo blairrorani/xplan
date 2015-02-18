@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Xplan > Payments summary</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Loading Bootstrap -->
+    <link href="../dist/css/vendor/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI Pro -->
+    <link href="../dist/css/flat-ui-pro.css" rel="stylesheet">
+
+
+    <link rel="shortcut icon" href="img/favicon.png">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">
+            Xplan
+          </a>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="container">
+
+
+      <div class="row">
+
+          <h4>Payments summary</h4>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" >
+                <h4 class="panel-title">
+                    Payments filter
+                </h4>
+              </div>
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="offset-col-xs-2 col-xs-8">
+
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-3 control-label">Type
+                      </label>
+                      <div class="col-sm-4">
+                        <select class="form-control">
+                          <option>All </option>
+                          <option>B</option>
+                          <option>C</option>
+                          <option>D</option>
+                          <option>E</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-3 control-label">Status
+                      </label>
+                      <div class="col-sm-4">
+                        <select class="form-control">
+                          <option>All status</option>
+                          <option>B</option>
+                          <option>C</option>
+                          <option>D</option>
+                          <option>E</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label for="inputEmail3" class="col-sm-3 control-label">Date range
+                      </label>
+                      <div class="col-sm-4">
+                        <select class="form-control">
+                          <option>Last 7 days</option>
+                          <option>B</option>
+                          <option>C</option>
+                          <option>D</option>
+                          <option>E</option>
+                        </select>
+                      </div>
+                    </div>
+
+                  </form>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default">
+              <div class="panel-heading" role="tab" id="headingTwo">
+                <h4 class="panel-title">
+                  Payments results
+                </h4>
+              </div>
+
+                <div class="panel-body">
+                  <div class="row">
+                    <div class="col-xs-2">
+                      <button type="button" class="btn btn-default">Prev</button>
+                                          </div>
+                    <div class="col-xs-10">
+                      <div class="btn-group pull-right" role="group" aria-label="...">
+                        <button type="button" class="btn btn-default">Add</button>
+
+                        <div class="btn-group" role="group">
+
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                          Print all <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                        </ul>
+                      </div>
+
+                        <button type="button" class="btn btn-default">Next</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Action</th>
+                          <th>ID</th>
+                          <th>User</th>
+                          <th>Status</th>
+                          <th>Type</th>
+                          <th>Method</th>
+                          <th>Bank</th>
+                          <th>Date received</th>
+                          <th>Amount</th>
+                          <th>Allocated</th>
+                          <th>Unallocated</th>
+                          <th>Reference</th>
+                          <th>Comments</th>
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="warning">
+                          <td>
+                            <span class="fui-document"></span>
+                          </td>
+                          <td>7</td>
+                          <td>Suja</td>
+                          <td>Success</td>
+                          <td>Payment</td>
+                          <td>Direct debit</td>
+                          <td>Commonwealth</td>
+                          <td>16/02/2015</td>
+                          <td>$1,650.00</td>
+                          <td>$1,650.00</td>
+                          <td>$0.00</td>
+                          <td>Bpoint</td>
+                          <td></td>
+                        </tr>
+
+
+                      </tbody>
+                    </table>
+
+                  </div>
+                </div>
+                </div>
+
+              </div><!-- end panel -->
+
+
+
+              </div>
+            </div>
+
+
+
+    <!-- jQuery (necessary for Flat UI's JavaScript plugins) -->
+    <script src="../dist/js/vendor/jquery.min.js"></script>
+    <script src="../dist/js/vendor/video.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/flat-ui-pro.js"></script>
+
+  </body>
+</html>
