@@ -1,2 +1,2 @@
-# xplan
-xplan demo
+# Diamond
+Diamond demo
